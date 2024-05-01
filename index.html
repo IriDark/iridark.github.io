@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="img/avatar.png" type="image/png">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Honk&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="og:image" content="https://raw.githubusercontent.com/KoteykaTheCat/ktcstudios/main/img/og_ktc_studios.png">
+		<meta name="twitter:image" content="https://raw.githubusercontent.com/KoteykaTheCat/ktcstudios/main/img/og_ktc_studios.png">
+		<meta property="twitter:card" content="summary">
+		<meta property="og:site_name" content="IriDark's Portfolio">
+		
+		<title> IriDark's Portfolio </title>
+		<meta property="og:locale" content="en">
+		<meta name="og:title" content="IriDark's Portfolio">
+		<meta name="og:description" content="Pixel Artist and Java coder">
+		<meta name="description" content="Pixel Artist and Java coder">
+		<meta name="og:url" content="https://https://koteykathecat.github.io/ktcstudios/">
+		<meta property="og:keywords" content="iridark, iri, idark, айдарк">
+	</head>
+	<body class="body">
+		<div class="page">
+			<header class="header">
+				<img class="header_avatar circle" src="img/avatar.png" height=50 alt="avatar">
+				<a class="header_b" href=""> Home </a>
+				<a class="header_b" href="store"> Store </a>
+			</header>
+			<main>
+				<div class="gallery" id="gallery" onclick="close_gallery()">
+					<img class="gallery_img" src="img/items_1.png" id="gallery_img">
+				</div>
+				<div class="profile">
+					<img class="circle" src="img/avatar.png" height=250 alt="avatar">
+					<div class="profile_nickname"> Hi! I'm <span style="color: slategray"> IriDark </span> </div>
+					<div class="profile_des">
+						I am pixel artist and java coder <br>
+						Here is my arts
+					</div>
+				</div>
+				<div class="p1">
+					<div class="p_top_text"> Lexicon </div>
+					<img onclick="open_gallery(this)" src="img/lexicon.png">
+				</div>
+				<div class="p2">
+					<div class="p_top_text"> Boss bars </div>
+					<img onclick="open_gallery(this)" src="img/boss_bars.png">
+					<div class="p_bottom_text"> Boss bars </div>
+				</div>
+				<div class="p1">
+					<div class="p_top_text"> Icons </div>
+					<img onclick="open_gallery(this)" src="img/icons.png">
+				</div>
+				<div class="p2">
+					<div class="p_top_text"> Armor </div>
+					<img onclick="open_gallery(this)" src="img/armor.png">
+					<div class="p_bottom_text"> Armor </div>
+				</div>
+				<div class="p1">
+					<div class="p_top_text"> Items </div>
+					<img onclick="open_gallery(this)" src="img/items_1.png">
+				</div>
+				<div class="p2">
+					<div class="p_top_text"> Drinks </div>
+					<img onclick="open_gallery(this)" src="img/drinks.png">
+					<div class="p_bottom_text"> Drinks </div>
+				</div>
+				<div class="p1">
+					<div class="p_top_text"> Accessories </div>
+					<img onclick="open_gallery(this)" src="img/accessories.png">
+				</div>
+				<div class="p2">
+					<div class="p_top_text"> Mana Bar </div>
+					<img onclick="open_gallery(this)" src="img/mana_bar_1.png">
+					<div class="p_bottom_text"> Mana Bar </div>
+				</div>
+				<div class="p1">
+					<div class="p_top_text"> Mana Bar </div>
+					<img onclick="open_gallery(this)" src="img/mana_bar_2.png">
+				</div>
+				<div class="p2">
+					<div class="p_top_text"> Crystals </div>
+					<img onclick="open_gallery(this)" src="img/crystals.png">
+					<div class="p_bottom_text"> Crystals </div>
+				</div>
+				<div class="p1">
+					<div class="p_top_text"> Items </div>
+					<img onclick="open_gallery(this)" src="img/items_2.png">
+				</div>
+				<div class="p2">
+					<div class="p_top_text"> Staffs </div>
+					<img onclick="open_gallery(this)" src="img/staffs.png">
+					<div class="p_bottom_text"> Staffs </div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="flinks_group">
+					<a class="flink" href="https://www.paypal.com/donate/?hosted_button_id=2VUEXEBSWEXUA">
+						<img class="flink_icon" src="img/paypal.png" height=40>
+						<div class="flink_text"> PayPal </div>
+					</a>
+					<a class="flink" href="https://ko-fi.com/idark">
+						<img class="flink_icon" src="img/kofi.png" height=40>
+						<div class="flink_text"> Kofi </div>
+					</a>
+					<a class="flink" href="https://github.com/IriDark/Valoria">
+						<img class="flink_icon" src="img/github.png" height=40>
+						<div class="flink_text"> GitHub </div>
+					</a>
+				</div>
+
+				<div class="flinks_group">
+					<a class="flink" href="https://discord.gg/wWdXpwuPmK">
+						<img class="flink_icon" src="img/discord.png" height=40>
+						<div class="flink_text"> Discord </div>
+					</a>
+					<a class="flink" href="https://www.curseforge.com/minecraft/mc-mods/valoria">
+						<img class="flink_icon" src="img/curseforge.png" height=40>
+						<div class="flink_text"> CurseForge </div>
+					</a>
+					<a class="flink" href="https://modrinth.com/mod/valoria">
+						<img class="flink_icon" src="img/modrinth.png" height=40>
+						<div class="flink_text"> Modrinth </div>
+					</a>
+				</div>
+			</footer>
+
+			<script>
+                function open_gallery(img) {
+                    document.getElementById("gallery").classList.add("opened");
+                    document.getElementById("gallery_img").src = img.src;
+				}
+                function close_gallery() {
+                    document.getElementById("gallery").classList.remove("opened");
+                }
+			</script>
+		</div>
+	</body>
+</html>

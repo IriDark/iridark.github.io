@@ -104,6 +104,12 @@ img {
 .gallery_img {
 	z-index: 3;
 	max-width: 95%;
+	max-height: 95%;
+	transform: scale(0.75);
+}
+
+.gallery.opened .gallery_img {
+	transform: scale(1);
 }
 
 .p1, .p2 {
@@ -122,11 +128,15 @@ img {
 }
 
 .p1 img:hover {
-	box-shadow: 0 15px 85px rgb(255, 255, 255, 0.25);
+	box-shadow: 0 0 85px rgb(255, 255, 255, 0.25);
+	background-color: rgb(255, 255, 255, 0.125);
+	cursor: pointer;
 }
 
 .p2 img:hover {
-	box-shadow: 0 15px 85px rgb(255, 255, 255, 0.25);
+	box-shadow: 0 0 85px rgb(0, 0, 0, 0.25);
+	background-color: rgb(0, 0, 0, 0.08);
+	cursor: pointer;
 }
 
 

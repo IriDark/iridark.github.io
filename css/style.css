@@ -32,24 +32,31 @@ img {
 	padding: 12px;
 	display: flex;
 	align-items: center;
-	box-shadow: 0 0 20px black;
+	box-shadow: 0 0 12px black;
 	z-index: 1;
 }
 
 .header_b {
-	padding: 6px 16px 6px 16px;
+	padding: 0 16px 0 16px;
 	margin: 0px 0px 0px 10px;
-	color: white;
+	color: rgb(200, 200, 200, 1);
 	display: flex;
 	align-items: center;
 	font-size: 22px;
-	border-radius: 50px;
-	background: black;
+	border-radius: 3px;
+
+    border-bottom: solid;
+    border-bottom-width: 3px;
+    writing-mode: horizontal-tb;
 }
+
 .header_b:hover {
-	color: black;
-	background: white;
+	color: white;
+	border-bottom-width: 4px;
+	border-bottom: solid;
+    writing-mode: horizontal-tb;
 }
+
 .profile {
 	margin: 110px 0 50px 0;
 	display: flex;
@@ -147,7 +154,6 @@ img {
 .p2 .p_top_text {
 	display: none;
 }
-
 
 .store {
 	margin-top: 20px;

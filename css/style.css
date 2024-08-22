@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	transition: 0.25s;
-	font-family: Acme;
+    font-family: Acme;
 }
 
 a {
@@ -15,6 +15,12 @@ img {
 
 .circle {
 	border-radius: 50%;
+    outline: white solid 6px;
+}
+
+.circle_lesser {
+    border-radius: 50%;
+    outline: white solid 3px;
 }
 
 .page {
@@ -192,6 +198,11 @@ img {
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
+}
+
+.centered {
+    padding: 20px;
+    justify-content: center;
 }
 
 .footer {
